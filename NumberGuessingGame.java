@@ -15,7 +15,7 @@ int guessnumber=random.nextInt(100)+1;
 int attempts=0;
 boolean correct=false;
 System.out.println("Round " + (++rounds) + ": Guess a number between 1 and 100:");
-while(!correct && attempts<3)
+while(!correct && attempts<5)
 {
 int usernumber=sc.nextInt();
 attempts++;
